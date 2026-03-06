@@ -1,0 +1,10 @@
+# Root-level: only track back/ and plataforma-mj/
+.vscode/
+.cursor/
+docs/
+supabase/
+
+# OS & misc
+.DS_Store
+*.log
+*.local

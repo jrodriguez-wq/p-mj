@@ -1,0 +1,10 @@
+{
+  "name": "newellrms",
+  "version": "1.0.0",
+  "description": "NeWell RMS — Rental Management System",
+  "private": true,
+  "scripts": {
+    "build": "npm ci --include=dev && npm run db:generate && npm run build",
+    "start": "npm start"
+  }
+}
