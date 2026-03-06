@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "build": "prisma generate && tsc --noEmit",
-    "dev": "tsx watch src/server.ts",
     "start": "tsx src/server.ts",
+    "dev": "tsx watch src/server.ts",
     "typecheck": "tsc --noEmit",
     "db:migrate": "prisma migrate dev",
     "db:generate": "prisma generate",

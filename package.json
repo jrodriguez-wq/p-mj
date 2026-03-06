@@ -4,7 +4,8 @@
   "description": "NeWell RMS — Rental Management System",
   "private": true,
   "scripts": {
-    "build": "npm ci --include=dev && npm run db:generate && npm run build",
-    "start": "npm start"
+    "install": "cd back && npm install",
+    "build": "cd back && npm ci --include=dev && npm run build",
+    "start": "cd back && npm start"
   }
 }
